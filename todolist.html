@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    
+  </head>
+  <body>
+
+    <!-- header title -->
+  
+      <h1 id="header">Todo List</h1>
+    
+
+<!-- cards -->
+    <div id="cards">
+      <div id="OneCard">
+        <h3 class="card-head">Social Media</h3>
+        <p class="card-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, harum.
+          Sit et natus eligendi nostrum. Quisquam animi repellat, ullam, quod
+          delectus ipsum culpa, blanditiis voluptas officia unde cumque magni
+          tenetur!
+        </p>
+        <button class="card-btn" onclick = "delNote(event)">Delete</button>
+    </div>
+    </div>
+
+    <!-- popup  -->
+    <div id="pop-up"></div>
+    <div id="pop-up-det">
+        <h2>Add Notes</h2>
+        <form>
+            <input id="input-head" type="text" placeholder="Enter Heading">
+            <input id="input-Notes" type="text" placeholder="Enter your notes">
+            <button id="Adding-btn">Add</button>
+            <button id="Cancel-btn">Cancel</button>
+        </form>
+    </div>
+    <!-- add Button -->
+   
+      <button id="add-btn">+</button>
+      <script src="index.js"></script>
+  </body>
+</html>
