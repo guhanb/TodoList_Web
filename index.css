@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+   
+    box-sizing: border-box;
+}
+
 
 #header{
     background-color: black;
@@ -8,16 +14,22 @@
     text-align: center;
 }
 
+#OneCard h3,p{
+    margin-bottom: 15px;
+}
 
 #OneCard{
    
     background-color: rgb(242, 242, 104);
     width: 25%;
-    padding: 10px;
+    padding: 15px;
     margin: 15px;
     display: inline-block;
     vertical-align: top;
 }
+/* .card-head{
+    width: auto;
+} */
 
 #add-btn{
     position: fixed;
@@ -71,7 +83,7 @@
 
 #pop-up-det input:focus{
     outline: none;
-    padding-left: 30px;
+    
     font-size: 20px;
 }
 

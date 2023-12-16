@@ -6,6 +6,8 @@ var popupdet = document.getElementById("pop-up-det")
 addbtn.addEventListener("click" , function(){
     popup.style.display = "block"
     popupdet.style.display = "block"
+
+    
 })
 
 // removing default action 
@@ -35,6 +37,9 @@ Addingbtn.addEventListener("click" , function(event){
     popup.style.display = "none"
     popupdet.style.display = "none"
     cards.append(div)
+    
+    inputNotes.value = ''
+    inputhead.value = ''
 
 })
 
