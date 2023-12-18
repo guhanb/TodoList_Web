@@ -26,6 +26,7 @@
     margin: 15px;
     display: inline-block;
     vertical-align: top;
+    word-wrap: break-word;
 }
 /* .card-head{
     width: auto;
